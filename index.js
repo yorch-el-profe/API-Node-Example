@@ -1,7 +1,7 @@
 const http = require('http');
 
 const server = http.createServer(function (request, response) {
-    response.write('Hello World');
+    response.write('Hello World from Heroku');
     response.end();
 });
 
